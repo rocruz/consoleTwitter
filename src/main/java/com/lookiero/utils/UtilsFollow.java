@@ -27,7 +27,7 @@ public class UtilsFollow {
 		if (null != tweetsList && null != UtilsPerson.readTweetPerson(nameFollowing)) {
 			UtilsFollow.followDTO.getListFollow().get(nameFollower).add(nameFollowing);
 		} else {
-			System.out.println("El usuario" + nameFollower + "no existe ");
+			System.out.println("El usuario " + nameFollowing + " no existe ");
 		}
 	}
 

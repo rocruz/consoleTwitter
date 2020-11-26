@@ -19,6 +19,8 @@ public class ConsoleTwitterDelegate {
 		Id id = UtilsConsoleTwitter.chooseOption(cadena);
 
 		if (Id.EXIT == id) {
+			System.out.println("Bye, bye.. ");
+			
 		} else if (Id.FOLLOW == id) {
 			
 			this.followDelegate.followPerson(cadena);
