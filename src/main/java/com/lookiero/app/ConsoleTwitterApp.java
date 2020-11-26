@@ -26,6 +26,7 @@ public class ConsoleTwitterApp {
 		System.out.println("READING   : $> Name  ");
 		System.out.println("FOLLOWING : $> Name1 follows Name2");
 		System.out.println("TIMELINE  : $> Name wall");
+		System.out.println("EXIT      : $> exit");
 		System.out.println("#################################");
 
 		do {
